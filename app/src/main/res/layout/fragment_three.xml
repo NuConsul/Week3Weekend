@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentThree">
+
+
+    <EditText
+        android:id="@+id/etEmployeeNameThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Name"/>
+
+    <EditText
+        android:id="@+id/etEmployeeBirthDateThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Birth Date"/>
+
+    <EditText
+        android:id="@+id/etEmployeeWageThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Wage"/>
+
+    <EditText
+        android:id="@+id/etEmployeeHireDateThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Hire Date"/>
+
+    <EditText
+        android:id="@+id/etEmployeeImageThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Input URI"/>
+
+
+
+    <EditText
+        android:id="@+id/employeeIdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Get Employee Id"/>
+
+    <Button
+        android:id="@+id/btnThatUpdates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Employee"/>
+
+    <Button
+        android:id="@+id/btnThatDeletes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Employee"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentTwo">
+
+
+    <EditText
+        android:id="@+id/etEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/etEmployeeBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birth Date"/>
+
+    <EditText
+        android:id="@+id/etEmployeeWage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wage"/>
+
+    <EditText
+        android:id="@+id/etEmployeeHireDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hire Date"/>
+
+    <EditText
+        android:id="@+id/etEmployeeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input URI"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send URI For Image" />
+
+</LinearLayout>
